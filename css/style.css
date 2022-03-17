@@ -28,7 +28,11 @@ body{
     grid-area: header;
 }
 
-header{
+/* .container-fluid{
+    display: flex;
+} */
+
+/* header{
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
@@ -36,7 +40,7 @@ header{
     align-items: center;
     border-radius: 4px;
     flex-wrap: wrap;
-}   
+}    */
 
 nav ul{
     list-style: none;
