@@ -28,20 +28,6 @@ body{
     grid-area: header;
 }
 
-/* .container-fluid{
-    display: flex;
-} */
-
-/* header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #ffffff;
-    margin: .5rem;
-    align-items: center;
-    border-radius: 4px;
-    flex-wrap: wrap;
-}    */
-
 nav ul{
     list-style: none;
     display: flex;
@@ -73,10 +59,21 @@ h1{
     font-size: 3rem; /*tamaño de letra*/
     word-spacing: 5px; /*separacion entre palabras*/
     text-align: justify;/*alineacion de texto*/
+    margin: 15px;
     padding: 1.5rem;
 }
 
 h2{
+    margin: px;
+    font-family: 'Share Tech Mono', monospace;
+    color: #433555; /*color*/
+    font-size: 2rem; /*tamaño de letra*/
+    word-spacing: 5px; /*separacion entre palabras*/
+    text-align: center;/*alineacion de texto*/
+}
+
+.produc{
+    margin: 50px;
     font-family: 'Share Tech Mono', monospace;
     color: #433555; /*color*/
     font-size: 2rem; /*tamaño de letra*/
@@ -185,7 +182,7 @@ a{
     margin: 20px;
 }
 
-fieldset{
+.contactanos{
     padding: 20px;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem; /*tamaño de letra*/
